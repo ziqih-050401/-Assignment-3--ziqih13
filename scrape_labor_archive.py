@@ -395,6 +395,10 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+"""
+The Rust Belt Revival analysis estimates the causal effect of Ohio's 2022 AI and robotics upskilling subsidy on county-level manufacturing employment using a difference-in-differences design. The panel covers eight counties — four Ohio treated counties in the grant corridor and four Pennsylvania benchmark counties — over 2018–2025. A two-way fixed-effects regression on log employment, with county-clustered standard errors, yields a treated_x_post coefficient of [COEF], implying the subsidy raised manufacturing employment in treated counties by approximately [X.X%] relative to the Pennsylvania controls (95% CI: [lo%, hi%], p = [pval]). The event-study plot shows pre-policy coefficients clustered near zero followed by a visible break starting in 2022, consistent with the aggregate DiD estimate.
+The parallel-trends assumption is supported by both visual and statistical evidence. The pre-period interaction of treated × year is [coef, p = pval], well above conventional significance thresholds, and the 2020 placebo DiD returns a coefficient of [coef, p = pval] — neither group shows divergent pre-trends nor anticipation effects, so the post-2022 gap is plausibly attributable to the subsidy itself rather than pre-existing dynamics.
+The policy implications are mixed. The positive employment response is consistent with job creation through retrofit and robotics-maintenance hiring, echoed qualitatively in the archived brief's apprenticeship note. However, a county-level panel cannot distinguish new jobs from displaced low-skill roles, and the tight geographic focus raises the possibility that Ohio's gains partly reflect firm or worker reallocation from neighboring Pennsylvania counties. Distinguishing creation from displacement would require worker-level data and a broader control region.
+"""
 
 

@@ -4,7 +4,7 @@ Dep. Variable:                log_emp   R-squared:                       0.994
 Model:                            OLS   Adj. R-squared:                  0.992
 Method:                 Least Squares   F-statistic:                     469.3
 Date:                Thu, 23 Apr 2026   Prob (F-statistic):           8.22e-09
-Time:                        15:19:23   Log-Likelihood:                 156.79
+Time:                        15:23:29   Log-Likelihood:                 156.79
 No. Observations:                  64   AIC:                            -281.6
 Df Residuals:                      48   BIC:                            -247.0
 Df Model:                          15                                         
