@@ -117,6 +117,7 @@ def scrape_one_brief(url: str) -> pd.DataFrame:
     df["brief_url"] = url
     return df
 
+
 # ------------------------------------------------------------------
 # Step 3 helpers. Clean messy employment values and county names.
 # ------------------------------------------------------------------
@@ -343,5 +344,5 @@ def main():
     return panel
 
 
-
-
+if __name__ == "__main__":
+    main()
